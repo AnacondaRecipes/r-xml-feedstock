@@ -40,10 +40,12 @@ requirements:
     - {{posix}}automake          # [not win]
     - {{posix}}pkg-config
     - {{posix}}make
+    - {{native}}libxml2 >=2.6.3
 
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
+    - {{native}}libxml2 >=2.6.3
 
 test:
   commands:
