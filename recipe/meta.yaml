@@ -10,8 +10,8 @@ package:
 source:
   fn: XML_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/XML_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/XML/XML_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/XML_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/XML/XML_{{ version }}.tar.gz
   sha256: a3b70169cb2fbd8d61a41ff222d27922829864807e9ecad373f55ba0df6cf3c3
 
 
